@@ -32,13 +32,14 @@ function initialize() {
         <p class= "celeb-img-txt">${celebrities[i].name}</p>
         </div>`
     }
+    changeCeleb(0);
 }
 
 function changeCeleb(celebIndex) {
     document.querySelector("#celeb-name").innerHTML = celebrities[celebIndex].name;
     document.querySelector("#celeb-title").innerHTML = celebrities[celebIndex].title;
-    document.querySelector("#celeb-img").style["background-image"] = `url(images/${celebrities[celebIndex].imgURL});`;
+    document.querySelector("#celeb-img").style["background-image"] = `url(images/${celebrities[celebIndex].imgURL})`;
     document.querySelector("#celeb-quote").innerHTML = celebrities[celebIndex].quote;
-    document.querySelector("#celeb-link a").href= celebrities[celebIndex].readMoreURL;
+    document.querySelector("#footer a").href= celebrities[celebIndex].readMoreURL;
 
 }

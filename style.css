@@ -53,9 +53,9 @@ body {
 }
 
 #celeb-img {
-    height: 100px;
-    width: 100%;
-    background-size: contain;
+    height: 130px;
+    width: 27%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #a6a7a9;
@@ -69,4 +69,23 @@ body {
 
 .footer {
     text-align: center;
+}
+
+.fa-github {
+    font-size: 70px;
+    float: right;
+    color: black;
+    padding: 7px;
+}
+.fa-github:hover{
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #e5e5e5;
+    font-weight: bold;
+    padding: 10px;
+
 }
